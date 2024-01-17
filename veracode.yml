@@ -65,7 +65,7 @@ veracode_iac_secrets_scan:
     trigger: true
     branches_to_run:
       - 'scanning' 
-      -'policyscan' #'*'
+      - 'policyscan' #'*'
     branches_to_exclude:
   pull_request:
     trigger: true
